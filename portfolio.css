@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.brief {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.brief h1 {
+  color: rgb(0, 153, 255);
+}
+
+.brief p {
+  font-size: 18px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px 10px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+main .project {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.project .project-image {
+  width: inherit;
+  height: 20rem;
+}
+
+.project-1 .project-image {
+  background: rgb(255, 255, 255) url("./img/calculator.png") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.project-2 .project-image {
+  background: rgb(241, 241, 241) url("./img/team.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project-3 .project-image {
+  background: gray url("./img/toDo.png") no-repeat center center;
+  background-size: cover;
+}
+
+.project-4 .project-image {
+  background: rgb(255, 255, 255) url("./img/conact.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project-5 .project-image {
+  background: gray url("./img/weather.png") no-repeat center;
+  background-size: cover;
+}
+
+.project-6 .project-image {
+  background: gray url("./img/login-neu.png") no-repeat center;
+  background-size: cover;
+}
+
+.project-des {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.project-des .title h3 {
+  color: rgb(0, 153, 255);
+}
+
+.project-des .tech-icons {
+  font-size: 30px;
+  color: rgb(61, 61, 61);
+  text-align: center;
+}
+
+.project-des .buttons {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.project-des button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.project-des button a {
+  text-decoration: none;
+  color: rgb(165, 165, 165);
+  font-size: 16px;
+}
+
+.project-des .buttons .git {
+  background-color: rgba(0, 153, 255, 0.109);
+  margin-right: 15px;
+}
+
+.project-des button.link a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.project-des .buttons .link {
+  background-color: rgb(0, 153, 255);
+}
+
+@media screen and (min-width: 600px) {
+  main .project {
+    width: 24rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  main {
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main .project {
+    width: 24rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1215px) {
+  .brief p {
+    width: 60%;
+    margin: 0 auto;
+  }
+  main {
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  main .project {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 24rem;
+    margin: 0 auto;
+  }
+}
