@@ -116,7 +116,7 @@ main .project {
 
 .project-des button a {
   text-decoration: none;
-  color: rgb(165, 165, 165);
+  color: rgb(24, 24, 24);
   font-size: 16px;
 }
 
@@ -149,14 +149,14 @@ main .project {
 
   main .project {
     width: 24rem;
-    margin: 0 auto;
+    margin: 0 auto 30px;
   }
 }
 
 @media screen and (min-width: 1215px) {
   .brief p {
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
   }
   main {
     padding: 20px;
@@ -169,6 +169,6 @@ main .project {
     color: black;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     width: 24rem;
-    margin: 0 auto;
+    margin: 0 auto 50px;
   }
 }
