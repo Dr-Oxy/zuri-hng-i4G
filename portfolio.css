@@ -18,6 +18,8 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: white;
   color: rgb(0, 0, 0);
+  background-color: black;
+  color: white;
 }
 
 .brief {
@@ -27,6 +29,7 @@ body {
 
 .brief h1 {
   color: rgb(0, 153, 255);
+  color: red;
 }
 
 .brief p {
@@ -36,7 +39,7 @@ body {
 }
 
 main {
-  padding: 20px 10px;
+  padding: 20px 10px !important;
   background-color: rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 1fr;
@@ -87,6 +90,11 @@ main .project {
   background-size: cover;
 }
 
+.project-7 .project-image {
+  background: gray url("./img/music-player.png") no-repeat center;
+  background-size: cover;
+}
+
 .project-des {
   text-align: center;
   padding: 20px 0;
@@ -94,6 +102,7 @@ main .project {
 
 .project-des .title h3 {
   color: rgb(0, 153, 255);
+  color: red;
 }
 
 .project-des .tech-icons {
@@ -116,12 +125,13 @@ main .project {
 
 .project-des button a {
   text-decoration: none;
-  color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
   font-size: 16px;
 }
 
 .project-des .buttons .git {
-  background-color: rgba(0, 153, 255, 0.109);
+  /* background-color: rgba(0, 153, 255, 0.109); */
+  background-color: rgb(255, 218, 218);
   margin-right: 15px;
 }
 
@@ -132,6 +142,7 @@ main .project {
 
 .project-des .buttons .link {
   background-color: rgb(0, 153, 255);
+  background-color: red;
 }
 
 @media screen and (min-width: 600px) {

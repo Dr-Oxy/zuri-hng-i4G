@@ -35,6 +35,7 @@ body {
 
 .quick-nav {
   background-color: rgb(0, 153, 255);
+  background-color: black;
   color: #fff;
   padding: 70px 20px;
   width: 230px;
@@ -63,6 +64,7 @@ body {
 .quick-nav a:hover {
   border-radius: 12px;
   background-color: rgb(0, 153, 255);
+  background-color: rgba(255, 0, 0, 0.609);
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
   transition: all ease 0.3s;
   text-align: center;
@@ -96,8 +98,7 @@ h3 {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  color: rgb(7, 41, 149);
-  color: rgb(0, 153, 255);
+  color: rgb(182, 9, 9);
 }
 
 h3::after {
@@ -105,7 +106,7 @@ h3::after {
   display: block;
   height: 5px;
   width: 70px;
-  background-color: rgb(0, 153, 255);
+  background-color: rgb(182, 9, 9);
   border-radius: 10px;
   margin-left: 10px;
 }

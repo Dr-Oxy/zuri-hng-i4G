@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(26, 26, 26);
+  background-color: rgba(34, 34, 34, 0.938);
   color: aliceblue;
   height: 100vh;
 }
@@ -32,7 +32,7 @@ main {
   align-items: center;
   text-align: center;
 
-  animation: bgImage 5s ease 10s forwards;
+  animation: bgImage 3s ease 8s forwards;
 }
 
 .text h1 {
@@ -41,6 +41,7 @@ main {
   font-size: 36px;
   margin-bottom: 15px;
   color: rgb(0, 153, 255);
+  color: red;
   position: relative;
 
   animation: shadow 6s ease 4s forwards;
@@ -60,20 +61,20 @@ main {
   background-color: rgb(0, 0, 0);
   background-color: white;
 
-  animation: typewriter 4s steps(17) 1s forwards;
+  animation: typewriter 3s steps(17) 1s forwards;
 }
 
 .text h1:after {
   width: 0.125em;
 
   background-color: rgb(0, 0, 0);
-  animation: typewriter 4s steps(17) 1s forwards, blink 500ms steps(17) infinite;
+  animation: typewriter 3s steps(17) 1s forwards, blink 500ms steps(17) infinite;
 }
 
 .text p {
   font-size: 24px;
   opacity: 0;
-  animation: fadeIn 4s ease 6s forwards, colorChange 4s ease 8s forwards;
+  animation: fadeIn 4s ease 4s forwards, colorChange 4s ease 8s forwards;
 }
 
 main button {
@@ -81,22 +82,24 @@ main button {
   padding: 15px 30px;
   border-radius: 8px;
   background-color: rgb(0, 153, 255);
+  background-color: red;
   color: aliceblue;
   margin: 20px 0;
   font-size: 18px;
   font-weight: 500;
   opacity: 0;
-  animation: fadeIn 4s ease 6s forwards;
+  animation: fadeIn 4s ease 4s forwards;
 }
 
 main button:hover {
   background-color: rgb(2, 76, 126);
+  background-color: rgb(170, 2, 2);
   color: white;
 }
 
 main .socials {
   opacity: 0;
-  animation: fadeIn 4s ease 6s forwards;
+  animation: fadeIn 4s ease 4s forwards;
 }
 
 main .socials a {
@@ -109,13 +112,15 @@ main .socials a {
 
 main .socials a:hover {
   color: rgb(0, 153, 255);
+  color: red;
 }
-
+/* 
 @keyframes shadow {
   to {
     box-shadow: 0 3px 10px rgb(0 153 255 / 0.9);
+    box-shadow: 0;
   }
-}
+} */
 
 @keyframes typewriter {
   to {
